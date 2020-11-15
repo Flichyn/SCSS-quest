@@ -1,0 +1,58 @@
+$primary-color: #C68F28;
+$secondary-color: #171616;
+$third-color : #E8E867;
+$font: 'Bilbo', serif;
+$font-size : 50px;
+$padding : 80px;
+$margin : 96px;
+
+body {
+  color: $secondary-color;
+  font-size: $font-size;
+  font-family : $font;
+}
+
+nav {
+  background-color: $primary-color;
+}
+
+section, .rings {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: $margin;
+}
+
+.ring {
+  padding : $padding;
+}
+
+.rings {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin ring ($size, $color) {
+  border : $size/10 solid;
+  border-radius : 50%;
+  width : $size;
+  height : $size;
+  color : $color;
+  box-shadow : inset $size/20 $size/20 $size/20, $size/20 $size/20 $size/20;
+}
+
+.orange-ring {
+  @include ring (64px, $primary-color);
+}
+
+.yellow-ring {
+  @include ring (136px, $third-color);
+}
+
+@for $i from 1 through 6 {
+  .black-ring-#{$i} {
+    @include ring ($i*24px, $secondary-color);
+    margin-left: -(percentage((($i*15)/1000)));
+  }
+}

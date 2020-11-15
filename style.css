@@ -1,0 +1,104 @@
+body {
+    color: #171616;
+    font-size: 50px;
+    font-family: "Bilbo", serif;
+}
+
+nav {
+    background-color: #C68F28;
+}
+
+section, .rings {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 96px;
+}
+
+.ring {
+    padding: 80px;
+}
+
+.rings {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.orange-ring {
+    border: 6.4px solid;
+    border-radius: 50%;
+    width: 64px;
+    height: 64px;
+    color: #C68F28;
+    box-shadow: inset 3.2px 3.2px 3.2px, 3.2px 3.2px 3.2px;
+}
+
+.yellow-ring {
+    border: 13.6px solid;
+    border-radius: 50%;
+    width: 136px;
+    height: 136px;
+    color: #E8E867;
+    box-shadow: inset 6.8px 6.8px 6.8px, 6.8px 6.8px 6.8px;
+}
+
+.black-ring-1 {
+    border: 2.4px solid;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    color: #171616;
+    box-shadow: inset 1.2px 1.2px 1.2px, 1.2px 1.2px 1.2px;
+    margin-left: -1.5%;
+}
+
+.black-ring-2 {
+    border: 4.8px solid;
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    color: #171616;
+    box-shadow: inset 2.4px 2.4px 2.4px, 2.4px 2.4px 2.4px;
+    margin-left: -3%;
+}
+
+.black-ring-3 {
+    border: 7.2px solid;
+    border-radius: 50%;
+    width: 72px;
+    height: 72px;
+    color: #171616;
+    box-shadow: inset 3.6px 3.6px 3.6px, 3.6px 3.6px 3.6px;
+    margin-left: -4.5%;
+}
+
+.black-ring-4 {
+    border: 9.6px solid;
+    border-radius: 50%;
+    width: 96px;
+    height: 96px;
+    color: #171616;
+    box-shadow: inset 4.8px 4.8px 4.8px, 4.8px 4.8px 4.8px;
+    margin-left: -6%;
+}
+
+.black-ring-5 {
+    border: 12px solid;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    color: #171616;
+    box-shadow: inset 6px 6px 6px, 6px 6px 6px;
+    margin-left: -7.5%;
+}
+
+.black-ring-6 {
+    border: 14.4px solid;
+    border-radius: 50%;
+    width: 144px;
+    height: 144px;
+    color: #171616;
+    box-shadow: inset 7.2px 7.2px 7.2px, 7.2px 7.2px 7.2px;
+    margin-left: -9%;
+}
